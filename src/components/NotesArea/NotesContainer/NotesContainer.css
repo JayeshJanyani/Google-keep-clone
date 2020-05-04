@@ -1,0 +1,64 @@
+.notesContainer{
+    /* margin: 0 30px; */
+    /* border: solid 2px red; */
+    columns: 4;
+    /* column-span: none; */
+    /* width: 1040px; */
+    margin: 10px 150px;
+    padding: 10px;
+    column-span: all; 
+}
+.notesText{
+    /* border: solid 2px blue; */
+    /* box-sizing: border-box; */
+    text-align:left;
+    margin-bottom: 10px;
+    white-space: pre-line;
+    word-wrap: break-word;
+    white-space: pre-line;
+    min-height: 20px;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.notesItemContainer{
+    min-height: 30px;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    border: lightgrey 2px solid;
+    border-radius: 0.6rem;
+    /* margin-top: 20px; */
+    padding: 4px 10px 12px 10px;
+    min-height: 30px;
+    overflow: hidden;
+    max-height: 700px;
+}
+
+
+.notesItemContainer:hover{
+    box-shadow: 0 0 4px #999;
+    /* -webkit-box-shadow: 0 26px 57px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 26px 57px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 26px 57px 0 rgba(0, 0, 0, 0.2); */
+}
+
+.notesTitle{
+    /* font  */
+    letter-spacing: 0.00625em;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    text-align:left;
+    overflow: hidden;
+    max-height: 150px;
+    margin-bottom: 4px;
+}
+
+.separator {
+    border-top: 1px solid #333;
+    width: 100%;
+    height: 1px;
+    display: block;
+    margin: 3px 0;
+}

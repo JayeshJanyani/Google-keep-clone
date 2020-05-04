@@ -1,0 +1,85 @@
+.notesShowfield, .notesCreatefield {
+    /* background-color: red; */
+    width: 50%;
+    /* height: 100px; */
+    /* height: 16px; */
+    margin: 32px auto 16px auto;
+    border: lightgrey 2px solid;
+    border-radius: 0.6rem;
+    box-shadow: 0 0 4px #999;
+}
+
+.notesShowfield {
+    height: 43px!important;
+}
+
+.notesCreatefield {
+    min-height: 136px!important;
+}
+.notesShowfield>input {
+    float: left;
+    height: 43px;
+    border: none;
+    background: none;
+    outline: none;
+    vertical-align: center;
+    /* background-color: ivory; */
+    /* font: normal 16px; */
+    padding: 0 10px;
+    width: 100%;
+    /* margin-left: 12px; */
+    /* padding: auto 20px; */
+    border-radius: 0.6rem;
+    box-sizing: border-box;
+}
+
+
+.notesCreatefield>input, .notesCreatefield>textarea{
+    /* padding: 11px; */
+    float: left;
+    height: 43px;
+    border: none;
+    background: none;
+    outline: none;
+    vertical-align: center;
+    /* background-color: ivory; */
+    /* font: normal 16px; */
+    padding: 0 10px;
+    width: 100%;
+    /* width: 690px; */
+    /* margin-left: 12px; */
+    /* padding: auto 20px; */
+    border-radius: 0.6rem;
+    box-sizing: border-box;
+}
+
+.title {
+    letter-spacing: .01428571em;
+    font-weight: bold;
+    /* font-family  : Roboto,Arial,sans-serif; */
+    font-size: 1rem;
+    font-weight: 520;
+    line-height: 1.5rem;
+}
+
+
+
+.noteArea, textarea {
+    letter-spacing: .01428571em;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+
+.close-btn{
+    position: relative;
+    margin: 10px 30px 10px 10px;
+    height: 30px;
+    width: 70px;
+    float: right;
+    border-radius: 0.6rem;
+    /* background-color: #2196f3; */
+    background-color: none;
+    border: none;
+}

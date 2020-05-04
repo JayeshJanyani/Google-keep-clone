@@ -1,0 +1,106 @@
+.appbar {
+    background-color: #fff;
+    height: 60px;
+    width: auto;
+    display: flex;
+    padding: 0 10px;
+    /* flex-direction: row; */
+    text-align: center;
+}
+
+.iconStyle {
+    font-size: 25px;
+    color: #5f6368;
+    width: 24px;
+    height: 24px;
+    margin: 4px;
+    padding: 12px;
+    border-radius: 50%;
+    line-height: 50%;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.iconStyle:hover {
+    background-color: rgba(0,0,0,.1);
+    opacity: 1;
+}
+
+img {
+    height: 40px;
+    width: 40px;
+    margin: auto 5px;
+}
+
+.search {
+    height: 48px;
+    max-width: 750px;
+    margin: auto;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    margin-left: 10px;
+    /* background-color: red; */
+    background-color: #f1f3f4;
+    margin-right: 50px;
+}
+
+.icon-search{
+    margin: 0 4px;
+    float: left;
+    font-size: 22px;
+    width: 46px;
+    height: 46px;
+    background: none;
+    border-radius: 50%;
+    outline:none;
+    border: none;
+    color: #5f6368;
+    /* opacity: 0.5; */
+}
+.icon-search:hover, .in-close:hover{
+    background-color: rgba(0,0,0,.1);
+    opacity: 1;
+}
+
+.searchtext{
+    /* padding: 11px; */
+    height: 43px;
+    border:none;
+    font-size: 18px;
+    background: none;
+    outline: none;
+    vertical-align: center;
+    width: 615px;
+    /* font: normal 16px; */
+}
+.in-close{
+    margin: 0 4px;
+    float: right;
+    font-size: 22px;
+    width: 46px;
+    height: 46px;
+    background: none;
+    border-radius: 50%;
+    outline:none;
+    border: none;
+    color: #5f6368;
+}
+
+.icons-set{
+    flex:1;
+    /* background-color: red; */
+}
+
+.refresh{
+    margin: 0 4px;
+    float: left;
+    font-size: 22px;
+    width: 46px;
+    height: 46px;
+    background: none;
+    border-radius: 50%;
+    outline:none;
+    border: none;
+    color: #5f6368;
+}
